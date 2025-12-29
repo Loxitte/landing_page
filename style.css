@@ -62,4 +62,12 @@ button {
 
 .section4 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 0, 230);
+}
+.blue-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
