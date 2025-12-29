@@ -1,12 +1,12 @@
 * {
-background-color: rgb(255, 159, 245);
+    background-color: rgb(255, 159, 245);
 }
 .header {
-display: flex;
-justify-content: space-between;
-margin: 0;
-border: 0;
-padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    border: 0;
+    padding: 8px;
 }
 
 ul {
@@ -21,27 +21,45 @@ a {
 }
 
 .section1 {
-display: flex;
-justify-content: center;
-margin: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+
+.opening {
+    padding: 8px;
 }
 
 button {
-background-color: rgb(255, 0, 230);
-color: white;
-font-size: 50px;
-border-color: white;
-border-radius: 8px;
+    background-color: rgb(255, 0, 230);
+    color: white;
+    font-size: 50px;
+    border-color: white;
+    border-radius: 8px;
 }
 
 .section2 {
-display: flex;
+    display: flex;
 }
 
 .section3 {
-display: flex;
+    display: flex;
+    padding: 8px;
+}
+
+.quote {
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 8px;
+}
+
+.source {
+    align-self: flex-end;
+    font-size: 20px;
 }
 
 .section4 {
-display: flex;
+    display: flex;
 }
