@@ -43,15 +43,20 @@ h3 {
     display: flex;
     justify-content: center;
 }
-.section2 {
-    display: flex;
-    background-color: rgb(255, 186, 248);
 
+.section2 {
+    background-color: rgb(255, 186, 248);
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    border-radius: 25px;
 }
 
 .busts {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     gap: 8px;
     align-items: center;
 }
@@ -89,4 +94,12 @@ h3 {
     align-items: center;
     background-color: rgb(255, 0, 230);
     margin: 8px;
+    border-radius: 25px;
+    padding: 8px;
+    gap: 20px;
+
+}
+
+.text {
+    max-width: 300px;
 }
